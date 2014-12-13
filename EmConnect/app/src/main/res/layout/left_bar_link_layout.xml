@@ -1,0 +1,31 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="50dp"
+    android:orientation="vertical"
+    android:layout_marginTop="2dp"
+    android:id="@+id/link_content_layout"
+    >
+    <TextView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="47dp"
+        android:gravity="center_vertical"
+
+        android:textStyle="bold"
+        android:textSize="15dp"
+        android:textColor="@color/link_bg_selector"
+
+        android:id="@+id/link_content"
+        android:clickable="true"
+
+
+
+    />
+
+    <View xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="3dp"
+        android:background="@android:color/holo_blue_light"/>
+
+
+</LinearLayout>
